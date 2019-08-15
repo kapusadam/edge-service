@@ -4,10 +4,9 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 const ROOT = path.resolve(__dirname, 'src');
 console.log(ROOT);
 const DESTINATION = path.resolve(__dirname, 'dist');
-const MODE = 'production'; // 'development'
+const MODE = 'development'; // 'development'
 
 let w = {
-
     //entry: './src/app.ts',
     entry: __dirname + '/dist/app' + '/src/m2ga/index.js',
     mode: MODE,
