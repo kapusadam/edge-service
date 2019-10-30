@@ -7,7 +7,7 @@
     "@wk/edge-services": "^5.3.1",
     "@uirouter/angular-hybrid": "^7.0.0",
     "@uirouter/core": "5.0.23",
-    "angular": "1.5.8"
+    "angular": "1.6.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.0",
